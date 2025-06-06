@@ -11,7 +11,7 @@
 #     host='localhost',
 #     port=3306,
 #     user='root',
-#     password='Sritesh@1234',
+#     password='your_password',
 #     database='student_db'
 # )
 
@@ -119,8 +119,8 @@ import urllib.parse
 from urllib.parse import quote_plus
 
 # Define the connection URL
-# db_url = "mysql+pymysql://root:" + quote_plus("Sritesh@1234") + "@localhost:3306/querygenai_db"
-db_url = "mysql+pymysql://root:" + quote_plus("Sritesh@1234") + "@host.docker.internal:3306/querygenai_db"
+# db_url = "mysql+pymysql://root:" + quote_plus("your password") + "@localhost:3306/querygenai_db"
+db_url = "mysql+pymysql://root:" + quote_plus("your_password") + "@host.docker.internal:3306/querygenai_db"
 
 
 print(db_url)
