@@ -1,0 +1,20 @@
+meta_ai_api  
+PyMySQL                                                                  
+SQLAlchemy 
+pandas  
+streamlit  
+cryptography
+
+
+# # Open PowerShell
+
+# # 1. Start Docker Desktop manually
+# # 2. Start Minikube
+# minikube start --driver=docker
+
+# # 3. Reapply Kubernetes only if needed
+# kubectl apply -f k8s/deployment.yaml
+# kubectl apply -f k8s/service.yaml
+
+# # 4. Launch App
+# minikube service querygenai-service

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: querygenai-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: querygenai
+  template:
+    metadata:
+      labels:
+        app: querygenai
+    spec:
+      containers:
+        - name: querygenai
+          image: querygenai-app:latest
+          imagePullPolicy: Never   #Use local Docker image
+          ports:
+            - containerPort: 8501
