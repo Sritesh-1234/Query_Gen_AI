@@ -282,8 +282,4 @@ if __name__ == "__main__":
 
 #   You can now view your Streamlit app in your browser.
 
-#   URL: http://0.0.0.0:8501
-
-# mysql+pymysql://root:Sritesh%401234@host.docker.internal:3306/querygenai_db
-#   Stopping...
-# (.venv) PS C:\Users\SRITESH BISI\Desktop\query gen ai> 
+#   URL: http://0.0.0.0:8501 
